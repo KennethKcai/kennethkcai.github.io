@@ -1,0 +1,24 @@
+html, body{
+    margin: 0;
+}
+
+.narbar{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-size: 16px;
+}
+
+footer{
+    text-align: left;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
