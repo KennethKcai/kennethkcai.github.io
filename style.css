@@ -1,24 +1,44 @@
+html{
+    font-family: "Fredoka", sans-serif;
+}
+
 html, body{
     margin: 0;
 }
 
-.narbar{
+.navbar{
     position: absolute;
-    top: 10px;
-    left: 10px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
+
 }
 
 .navbar a {
     text-decoration: none;
-    color: rgb(58, 58, 58);
-    font-size: 16px;
+    color: rgb(99, 99, 99);
+    font-size: 14px;
 }
 
 footer{
     text-align: left;
+    text-decoration: none;
     padding: 10px;
     position: fixed;
     bottom: 0;
+    left: 10px;
     width: 100%;
+    font-size: 14px;
+    color: rgb(99, 99, 99);
+}
+
+ul, ol {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    margin-bottom: 5px;
+}
+
+ul a{
+    color: rgb(99, 99, 99);
+    text-decoration: none;
 }
