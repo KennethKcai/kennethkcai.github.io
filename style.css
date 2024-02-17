@@ -62,3 +62,22 @@ img{
     font-size: 14px;
 
 }
+
+.text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: rgb(99, 99, 99);
+}
+
+.hover-img {
+    position: relative;
+    cursor: pointer;
+  }
+
