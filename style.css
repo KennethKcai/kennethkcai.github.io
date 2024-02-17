@@ -42,3 +42,23 @@ ul a{
     color: rgb(99, 99, 99);
     text-decoration: none;
 }
+
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+img{
+    padding: 30px;
+}
+
+.about-text{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: rgb(99, 99, 99);
+    text-align: left;
+    font-size: 14px;
+
+}
