@@ -68,17 +68,17 @@ img{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 14px;
-    color: rgb(99, 99, 99);
+    font-size: 17px;
+    z-index: 1000;
 }
 
 .text-link{
     text-decoration: none;
-    color: rgb(99, 99, 99);
+    color: black
 }
 
 #image-preview {
@@ -88,15 +88,18 @@ img{
     left: 50%;
     transform: translate(-50%, -50%);
     /* 设置合适的宽度和高度 */
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 700px;
     background-size: cover;
     background-position: center;
     pointer-events: none;
+    z-index: 1;
   }
 
   .text-item{
     padding: 5px;
+    position: relative;
+    z-index: 2000;
     /* margin: 5px; */
     /* border: 1px solid rgb(99, 99, 99); */
   }
