@@ -88,9 +88,10 @@ img{
     left: 50%;
     transform: translate(-50%, -50%);
     /* 设置合适的宽度和高度 */
-    width: 700px;
-    height: 700px;
-    background-size: cover;
+    width: 800px;
+    height: 800px;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     pointer-events: none;
     z-index: 1;

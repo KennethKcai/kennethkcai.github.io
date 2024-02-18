@@ -7,8 +7,11 @@ document.getElementById('homeLink').addEventListener('click', function(event){
             // 找到子元素中的 .text-link 元素以获取图片 URL
             var link = item.querySelector('.text-link');
             var imageUrl = link.getAttribute('data-image');
+            var imagePadding = link.getAttribute('data-padding');
             var imagePreview = document.getElementById('image-preview');
+
             imagePreview.style.backgroundImage = 'url(' + imageUrl + ')';
+            imagePreview.style.padding = imagePadding;
             imagePreview.style.display = 'block';
         });
     
