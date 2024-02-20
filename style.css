@@ -113,3 +113,7 @@ img{
     font-size: 8px;
   }
 
+  #portfolio{
+    color: rgb(99, 99, 99);
+    text-decoration: underline;
+  }
